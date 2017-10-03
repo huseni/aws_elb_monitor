@@ -1,0 +1,2 @@
+####################################################### Active instance monitoring under production ELB ###############################################################
+*/5 * * * * /opt/devops/cron/monitor_prod_elb.sh > /opt/devops/cron/cron_log/monitor_prod_elb.log
